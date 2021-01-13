@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Erich Choudhury</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    		<link rel="preconnect" href="https://fonts.gstatic.com">
+    		<link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+    		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    		<link rel="stylesheet" type="text/css" href="css/jquery.pagepiling.css">
+    		<link rel="stylesheet" type="text/css" href="css/personalsite.css">
+
+    </head>
+    <body>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
+
+	   <script type="text/javascript">
+            $(document).ready(function() {
+                $('#pagepiling').pagepiling({
+				direction: 'horizontal',
+				loopBottom: true,
+				navigation: {
+					'bulletsColor': '#000',
+					'position': 'right',
+					'tooltips': ['Home', 'Antartic Rocks', 'AIRSIM', 'Home Security', 'Contact Me']
+				},
+				})
+            });
+        </script>
+
+		<div id="pagepiling">
+			<div class="section" id="section1">
+				<img id="coverphoto" src="img/Erich_Cropped.jpg" alt="Erich">
+				<h1 class="text"> Hi, I'm Erich Choudhury.</h1>
+				<h2 class="text"><span class="paragraph_1">I'm an engineer...</span><span class="paragraph_2">I'm a musician...</span></h2>
+			</div>
+
+			<div class="section" id="section2">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="text_block col-md-6 col-xs-12">
+							<h1 class="text rock_header section2_header">
+								<strong>Collaborative Research: Landscape Evolution in the McMurdo Dry Valleys</strong>
+							</h1>
+							<h2 class="text rock_header section2_paragraph">
+								<hr></hr>
+								<br>
+								Created four, to-scale, 3-D models of Antarctic rocks using structure from motion techniques to harvest and aid in the presentation of data
+								  collected by Dr. Eppes and her team in Antarctica. Edited, re-textured, and animated the final models in Blender then wrote a Python script
+								  to obtain vertex locations in 3D space.
+								</br>
+							</h2>
+							<br></br>
+							<a class="btn btn-dark" style="background-color:black;" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1744864&HistoricalAwards=false" role="button">Paper</a>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<img id="rock" src="img/Rock3Gif.gif" alt="Rock3">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="section" id="section3">
+				<div class="container-fluid">
+					<div class="row">
+						<div style="background-color:black;" class="col-md-6 col-xs-12">
+							<video autoplay muted loop id="myVideo">
+							  <source src="img/WH.mp4" type="video/mp4">
+							</video>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<h1 class="text rock_header section3_header">
+								<strong>Microsoft AIRSIM and ROS Integration for Woodward Hall</strong>
+							</h1>
+							<h2 class="text rock_header section3_paragraph">
+								<hr id="s3_hr"></hr>
+								<br>
+								Modeled Woodward Hall from UNC Charlotte in Unreal Engine 4 using Blender and integrated it with Microsoft AIRSIM. Created new ROS packages
+								to run AIRSIM from a Windows Subsystem for Linux to simulate drone flight. Implemented Octomap to create an occupancy grid of my model of Woodward
+								Hall in order to test a new SLAM algorithm
+								</br>
+							</h2>
+							<br></br>
+							<a class="btn btn-light" id="section3_button" href="https://github.com/EChoudhury" role="button">Paper</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="section" id="section4">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="text_block col-md-6 col-xs-12">
+							<h1 class="text rock_header section4_header">
+								<strong>IOT Home Security System: 49er Sense</strong>
+							</h1>
+							<h2 class="text rock_header section4_paragraph">
+								<hr></hr>
+								<br>
+								Created a fully functional Home Security system with a multi-user Android application, a home server, and a Raspberry Pi for connecting IOT devices.
+								The application allows the user to view real-time video from their home Raspberry Pi's onboard camera with motion-detection, their local weather, and interact with their
+								IOT devices, such as the thermostat, garage-doors, locks, lights, and fans.
+								</br>
+							</h2>
+							<br></br>
+							<a class="btn btn-dark" style="background-color:black;" href="https://github.com/EChoudhury" role="button">Github Repo</a>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<img id="phone" src="img/PhoneAlpha.png" alt="PhoneAlpha">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="section" id="section5">
+				<h1 class="text">Want to chat? Connect with me!</h1>
+				<table style="margin-left:auto;margin-right:auto;">
+					<tr>
+						<th>
+							<a href="https://www.linkedin.com/in/erich-choudhury-4b9258159">
+							<img class="socialmedia_imgs" src="img/iconfinder_Circled_Linkedin_svg_5279114.svg"></img>
+							</a>
+						</th>
+						<th>
+							<a href="https://github.com/EChoudhury">
+							<img class="socialmedia_imgs" src="img/iconfinder_github_317712.svg"></img>
+							</a>
+						</th>
+					</tr>
+				</table>
+			</div>
+		</div>
+    </body>
+</html>
