@@ -21,12 +21,12 @@
 	   <script type="text/javascript">
             $(document).ready(function() {
                 $('#pagepiling').pagepiling({
-				direction: 'horizontal',
+				direction: 'vertical',
 				loopBottom: true,
 				navigation: {
 					'bulletsColor': '#000',
 					'position': 'right',
-					'tooltips': ['Home', 'Antartic Rocks', 'AIRSIM', 'Home Security', 'Contact Me']
+					'tooltips': ['Home', 'Antartic Rocks', 'AIRSIM', 'Home Security', "Covid Monitor", 'Contact Me']
 				},
 				})
             });
@@ -36,7 +36,10 @@
 			<div class="section" id="section1">
 				<img id="coverphoto" src="img/Erich_Cropped.jpg" alt="Erich">
 				<h1 class="text"> Hi, I'm Erich Choudhury.</h1>
-				<h2 class="text"><span class="paragraph_1">I'm an engineer...</span><span class="paragraph_2">I'm a musician...</span></h2>
+				<h2 class="text">
+					<span class="paragraph_1">I'm an engineer...</span>
+					<span class="paragraph_2">I'm a musician...</span>
+				</h2>
 			</div>
 
 			<div class="section" id="section2">
@@ -115,8 +118,80 @@
 					</div>
 				</div>
 			</div>
-
+			
 			<div class="section" id="section5">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-6 col-xs-12">
+							<img id="covid" src="img/Demo.gif" alt="SocialDistancing">
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<h1 class="text_white rock_header section5_header">
+								<strong>COVID-19 Social Distancing Monitor</strong>
+							</h1>
+							<h2 class="text_white rock_header section5_paragraph">
+								<hr id="s3_hr"></hr>
+								<br>
+								This project is a near real time COVID-19 social distance monitoring system the uses pre-existing libraries to help with estimating distances between objects and verifying social distancing guideline in order to create a safer, healthier public. This was completed for my Real-Time AI class.
+								</br>
+							</h2>
+							<br></br>
+							<a class="btn btn-light" id="section3_button" href="https://github.com/EChoudhury/COVID-19-Social-Distancing-Monitor" role="button">Paper</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="section" id="section6">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="text_block col-md-6 col-xs-12">
+							<h1 class="text rock_header section2_header">
+								<strong>Real-Time Object Detection and Localization using Microsoft HoloLens</strong>
+							</h1>
+							<h2 class="text rock_header section2_paragraph">
+								<hr></hr>
+								<br>
+								Developed a networked Mixed Reality system utilized for real-time detection and localization of objects in the user’s environment
+								using YOLOv4. This was the capstone Senior Design project for my undergraduate engineering degree under the supervision of Dr. Tao Han.
+								</br>
+							</h2>
+							<br></br>
+							<a class="btn btn-dark" style="background-color:black;margin-bottom: 0.5em;" href="https://isl.charlotte.edu/senior-design-program/senior-design-program-overview" role="button">ISL Site</a>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<img id="rock" src="img/SeniorDesign.PNG" alt="HoloLens">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="section" id="section7">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-6 col-xs-12">
+							<img id="vlsi" src="img/VLSI.PNG" alt="VLSI">
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<h1 class="text_white rock_header section7_header">
+								<strong>VLSI 12-Bit Accumulator Layout</strong>
+							</h1>
+							<h2 class="text_white rock_header section7_paragraph">
+								<hr id="s3_hr"></hr>
+								<br>
+								Designed, created a schematic, took
+								measurements, and developed a working schematic of a rising edge triggered 12-bit accumulator that 
+								operates with inputs of 8-bit unsigned integers in Cadence. An accumulator is a short-term register for an 
+								intermediate storage of arithmetic and logic data.
+								</br>
+							</h2>
+							<br></br>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="section" id="section8">
 				<h1 class="text">Want to chat? Connect with me!</h1>
 				<table style="margin-left:auto;margin-right:auto;">
 					<tr>

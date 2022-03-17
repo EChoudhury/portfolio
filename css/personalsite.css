@@ -8,6 +8,12 @@ body {
 	text-align: center;
 }
 
+.text_white {
+	color: white;
+	font-family: 'Cardo', serif;
+	text-align: center;
+}
+
 .text_block {
 	margin-top: 14%;
 	margin-bottom: 20%;
@@ -50,6 +56,8 @@ body {
 
 #s3_hr {
 	background-color:white;
+	border-color: white;
+	color: white;
 }
 
 .section4_header {
@@ -60,6 +68,27 @@ body {
 	font-size: 1.5vw;
 }
 
+.section5_header {
+	font-size: 2vw;
+	color:white;
+	padding-top: 5%;
+}
+
+.section5_paragraph {
+	font-size: 1.5vw;
+	color:white;
+}
+
+.section7_header {
+	font-size: 2vw;
+	color:white;
+	padding-top: 30%;
+}
+
+.section7_paragraph {
+	font-size: 1.5vw;
+	color:white;
+}
 .rock_header {
 	text-align: left;
 }
@@ -136,6 +165,13 @@ body {
 	padding-top: 20%;
 }
 
+#covid {
+	width: 70%;
+	display: block;
+	margin:auto;
+	padding-top: 0%;
+}
+
 #phone {
 	height: auto;
 	max-width: 60%;
@@ -154,6 +190,13 @@ body {
 	border: 3px solid black;
 }
 
+#vlsi {
+	width: 100%;
+	display: block;
+	margin:auto;
+}
+
+
 #section1 {
 	background-color: #f5f4f4;
 }
@@ -171,6 +214,18 @@ body {
 }
 
 #section5 {
+	background-color: #095352;
+}
+
+#section6 {
+	background-color: #8B8687;
+}
+
+#section7 {
+	background-color: #000000;
+}
+
+#section8 {
 	background-color: #f5f4f4;
 }
 
@@ -193,6 +248,10 @@ body {
 	#rock {
 		padding-top:0;
 
+	}
+	
+	#covid {
+		padding-top: 5%;
 	}
 
 	#myVideo {
@@ -228,6 +287,28 @@ body {
 
 	.section4_paragraph {
 		font-size: 1em;
+	}
+
+	.section5_header {
+		padding-top: 20%;
+		font-size: 1.5em;
+		color: white;
+	}
+
+	.section5_paragraph {
+		font-size: 1em;
+		color: white;
+	}
+
+	.section7_header {
+		padding-top: 20%;
+		font-size: 1.5em;
+		color: white;
+	}
+
+	.section7_paragraph {
+		font-size: 1em;
+		color: white;
 	}
 
 }
